@@ -1,68 +1,69 @@
 body {
-    background-color: rgba(0, 110, 255, 0.74);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(0, 110, 255, 0.74);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
-    width: 600px;
-    margin: 0 auto;
+  width: 600px;
+  margin: 0 auto;
 }
 
 .box {
-    width: 80%;
-    height: 125px;
-    background-color: aliceblue;
-    margin-top: 300px;
-    border-radius: 10px;
-    padding: 25px 80px;
+  width: 80%;
+  height: 125px;
+  background-color: aliceblue;
+  margin-top: 300px;
+  border-radius: 10px;
+  padding: 25px 80px;
 }
 
 .form-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #num {
-    padding: 15px 0;
-    width: 70%;
-    border: none;
-    border-bottom: 2px solid #cccccc;
-    background-color: inherit;
-    outline: none;
-    margin-right: 10px;
+  padding: 15px 0;
+  width: 70%;
+  border: none;
+  border-bottom: 2px solid #cccccc;
+  background-color: inherit;
+  outline: none;
+  margin-right: 10px;
 }
 
 #num:focus {
-    border-bottom: 2px solid #000000;
-    transition: all 1s ease;
+  border-bottom: 2px solid #000000;
+  transition: all 1s ease;
 }
 
 .btn {
-    background-color: #cccccc;
-    padding: 15px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 15px;
-    font-weight: 500;
+  background-color: #cccccc;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .btn:hover {
-    background-color: #c0bebe;
+  background-color: #c0bebe;
 }
 
 .link {
-    text-decoration: none;
-    font-weight: 800;
-    margin-right: 15px;
-    opacity: 0.5;
-    color: #000000;
+  text-decoration: none;
+  font-weight: 900;
+  margin-right: 15px;
+  opacity: 0.5;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 .active {
-    opacity: 1;
+  opacity: 1;
 }
 
 .text {
-    font-size: 20px;
-    font-weight: 600;
+  font-size: 20px;
+  font-weight: 600;
 }
